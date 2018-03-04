@@ -7,9 +7,9 @@
 
     <item
         android:drawable="@drawable/dancingparrotleft"
-        android:duration="800"/>
+        android:duration="300"/>
     <item
         android:drawable="@drawable/dancingparrotright"
-        android:duration="800"/>
+        android:duration="300"/>
 
 </animation-list>

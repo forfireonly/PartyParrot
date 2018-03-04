@@ -3,8 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    android:background="#FFFFFF"
     tools:context=".MainActivity" >
 
     <ImageView
@@ -15,15 +13,17 @@
         android:background="@drawable/dancingparrot"
         />
     <TextView
+        android:id="@+id/party_parrot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:paddingTop="10dp"
         android:textSize="30sp"
-        android:textStyle="normal"
-        android:text="Party Parrot"
-        android:textColor="#FF1744"
+        android:textStyle="bold"
+        android:text="         Long  Live\n The party Parrot!!!"
+        android:textAllCaps="true"
+        android:textColor="@color/violet"
         />
 
 </RelativeLayout>
