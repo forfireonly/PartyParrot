@@ -13,6 +13,7 @@ import android.widget.ImageView;
 public class MainActivity extends Activity {
 
     private ImageView img;
+    MediaPlayer ring;
 
     @SuppressLint("NewApi") @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +28,20 @@ public class MainActivity extends Activity {
             }
 
         });
-        MediaPlayer ring= MediaPlayer.create(MainActivity.this,R.raw.gangham);
+        ring= MediaPlayer.create(MainActivity.this,R.raw.gangham);
         ring.start();
 
+
+        //onBackPressed();
     }
+
+    @Override
+    public void onBackPressed() {
+        if(ring.isPlaying()){
+            ring.stop();
+        }
+        ring.release();
+        super.onBackPressed();
+    }
+    
 }
