@@ -7,7 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/PartyParrot.iml" filepath="$PROJECT_DIR$/PartyParrot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PartyParrot-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PartyParrot-app.iml" group="PartyParrot/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/home-pecpaker-AndroidStudioProjects-PartyParrot.iml" filepath="$PROJECT_DIR$/.idea/modules/home-pecpaker-AndroidStudioProjects-PartyParrot.iml" group="PartyParrot" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/pecpaker-AndroidStudioProjects-PartyParrot.iml" filepath="$PROJECT_DIR$/.idea/modules/pecpaker-AndroidStudioProjects-PartyParrot.iml" group="PartyParrot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/pecpaker-AndroidStudioProjects-PartyParrot-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/pecpaker-AndroidStudioProjects-PartyParrot-app.iml" group="PartyParrot/app" />
     </modules>
   </component>
 </project>
